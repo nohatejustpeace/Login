@@ -1,9 +1,46 @@
 h1 {
-    justify-content: center;
+    text-align: center;
 }
 
 .login-box {
     width: 400px;
     height: 400px;
-    box-shadow: 0px 0px 0px 4px;
+    box-shadow: 0px 0px 0px 2px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+input {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+button {
+    display: flex;
+    margin: 50px auto 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background: #91B247;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 0px 2px black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background: black;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
